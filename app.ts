@@ -8,7 +8,7 @@ type Employee = {
   startDate: Date;
 };
 
-// interface ElevatedEmployee extends Employee, Admin {}
+// interface ElevatedEmployee extends Employee, Admin {} 
 
 type ElevatedEmployee = Admin & Employee;
 
